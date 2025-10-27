@@ -1,0 +1,36 @@
+/* Dark-themed Total Users Count */
+
+.userscount-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #1e1e2f, #2c2c3e);
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.userscount-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.userscount-number {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #6c63ff;
+}
+
+.userscount-answer {
+  margin-top: 15px;
+  background-color: #1f1f2b;
+  padding: 15px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 700px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
